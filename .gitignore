@@ -1,0 +1,61 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+.ipython/
+
+# Model Weights and Checkpoints (Large binaries)
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# Data archives & generated zip exports
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Temporary / Scratch artifacts
+scratch/
+temp/
+tmp/
+*.log
+
+# Presentation & Contest non-repo local files
+sih2026/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# Environment variables & secrets
+.env
+.env.*
+secrets.json
+credentials.json
+
+# IDE configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
