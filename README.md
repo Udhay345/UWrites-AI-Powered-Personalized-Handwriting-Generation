@@ -309,21 +309,9 @@ Or open directly in Google Colab via the badge at the top of the notebook.
 
 ---
 
-## 11. Development Roadmap
 
-- [x] Collect and categorize multi-format handwriting dataset (ruled & unruled).
-- [x] Develop computer vision preprocessing pipeline (deskew, binarization, line suppression).
-- [x] Implement robust projection-profile line and word segmentation with noise-floor filtering.
-- [x] Build BiGRU TextEncoder and DCGAN Generator / Discriminator architectures.
-- [x] Train baseline model across 200 epochs and evaluate single-glyph generation.
-- [ ] **Projection Discriminator:** Implement inner-product projection conditioning in the discriminator (`src/models.py:ConditionalDiscriminator`) to enforce strict text-image correspondence.
-- [ ] **Attention-Guided Generation:** Integrate cross-attention or recurrent stroke-generating mechanisms (e.g., Alex Graves handwriting synthesis architecture) for variable-length sentences.
-- [ ] **Latent Diffusion Adaptation:** Explore conditional Denoising Diffusion Probabilistic Models (DDPM) for state-of-the-art ink texture and realistic paper grain.
-- [ ] **Interactive Web Application:** Deploy an inference interface using FastAPI and Next.js / Streamlit allowing users to type custom text and download personalized handwriting sheets.
 
----
-
-## 12. Contributing & License
+## 11. Contributing & License
 
 Contributions, bug reports, and discussions are welcome! Please feel free to open an issue or submit a pull request.
 
